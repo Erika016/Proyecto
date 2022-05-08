@@ -1,0 +1,11 @@
+.imagem{
+  width: 100%;
+  height: 250px;
+}
+.wrapper {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+}

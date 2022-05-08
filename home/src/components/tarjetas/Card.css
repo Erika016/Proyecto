@@ -18,8 +18,8 @@
 }
 
 .boton {
-    background-color: blue;
-    color: white;
+    background-color: #d2d2d2;
+    color: black;
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;

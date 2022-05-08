@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Routes from "./Routes";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { CardProvider } from "./components/context/CardContext";
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <CardProvider>
     <BrowserRouter>
-      <Routes />
+      <App />
     </BrowserRouter>
   </CardProvider>
 );

@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const SectionFisio= ()=>{
-    return <h1>Crossfit</h1>
+    return <h1>Fisioterapeuta</h1>
 }
