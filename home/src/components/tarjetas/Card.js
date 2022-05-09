@@ -11,9 +11,9 @@ return(
         <div className="container-informacion">
         <h1>{props.titulo}</h1>
         {/* <button callsName="boton" onClick={props.onClick}>{props.textoBoton}</button> */}
-        <Link className="boton" to="/{props.seccion}">+Info</Link>
+        <Link className="boton" to={`/${props.seccion}`}>+Info</Link>
         </div>
-        <Outlet/>
+        
     </div>
 )
 }
