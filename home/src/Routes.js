@@ -8,18 +8,7 @@ import {SectionFisio } from "./components/tarjetas/sectionFisio";
 
 
 function Routes() {
-  return (
-    <Routes>
-      {/* Ruta de App con las card anidadas de las secciones */}
-      <Route index element={<App />}>
-      <Route path="/sectionCrossfit" element={<SectionCrossfit/>} />
-      <Route path="/sectionBoxeo" element={<SectionBoxeo/>} />
-      <Route path="/sectionFisio" element={<SectionFisio/>} />
-       </Route>
-
-
-    </Routes>
-  );
+  
 }
 
 export default Routes;
