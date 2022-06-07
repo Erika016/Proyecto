@@ -2,9 +2,10 @@ import "./App.css";
 // import{SectionBoxeo, SectionCrosstif, SectionFisio} from "./sectionBoxeo/SectionCrosstif/SectionFisio"
 import { Routes, Route, Navigate } from "react-router-dom";
 import App from "./App";
-import {SectionCrossfit} from "./components/tarjetas/sectionCrossfit";
-import {SectionBoxeo} from "./components/tarjetas/sectionBoxeo";
-import {SectionFisio } from "./components/tarjetas/sectionFisio";ss
+import {SectionCrossfit} from "./components/tarjetas/SectionCrossfit";
+import {SectionBoxeo} from "./components/tarjetas/SectionBoxeo";
+import {SectionFisio } from "./components/tarjetas/SectionFisio";
+import{Home} from "./components/Inicio";
 
 function App() {
   return (
@@ -19,5 +20,6 @@ function App() {
 
     </Routes>
   );
+}
 
 export default App;
