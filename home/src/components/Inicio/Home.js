@@ -1,9 +1,8 @@
 import { Navegador } from "../navigation/Navegador";
 import { Motivacion } from "../navigation/motivacion";
 import { Card } from "../tarjetas/Card";
-import { Link } from "react-router-dom";
 
-export default function Home(){
+export function Home(){
 return (
     <div className="contenedorPrincipal">
       <div>
